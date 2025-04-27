@@ -14,9 +14,6 @@
   <name>food-hotel-ordering-dataaccess</name>
   <url>http://maven.apache.org</url>
 
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
   <dependencies>
     <dependency>
       <groupId>com.github.musabeytekin.foodhotel</groupId>

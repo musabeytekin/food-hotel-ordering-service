@@ -17,5 +17,11 @@
   <properties>
   </properties>
 
+  <dependencies>
+    <dependency>
+      <groupId>com.github.musabeytekin.foodhotel</groupId>
+      <artifactId>food-hotel-commons</artifactId>
+    </dependency>
+  </dependencies>
 
 </project>
