@@ -22,43 +22,14 @@
   <repositories>
     <repository>
       <id>github</id>
-      <url>https://maven.pkg.github.com/musabeytekin/food-hotel-parent</url>
+      <url>https://maven.pkg.github.com/musabeytekin/*</url>
       <snapshots>
         <enabled>true</enabled>
       </snapshots>
     </repository>
+
   </repositories>
 
   <name>food-hotel-ordering-service</name>
-
-  <dependencyManagement>
-    <dependencies>
-      <dependency>
-        <groupId>com.github.musabeytekin.foodhotel</groupId>
-        <artifactId>food-hotel-ordering-domain-core</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>com.github.musabeytekin.foodhotel</groupId>
-        <artifactId>food-hotel-ordering-domain-application-service</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>com.github.musabeytekin.foodhotel</groupId>
-        <artifactId>food-hotel-ordering-application</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>com.github.musabeytekin.foodhotel</groupId>
-        <artifactId>food-hotel-ordering-dataaccess</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>com.github.musabeytekin.foodhotel</groupId>
-        <artifactId>food-hotel-ordering-messaging</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-    </dependencies>
-  </dependencyManagement>
 
 </project>
